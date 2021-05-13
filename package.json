@@ -1,0 +1,31 @@
+{
+  "name": "poolingcontract",
+  "version": "1.0.0",
+  "description": "It consists of two contracts : a library and a \"normal\" contract. Using this method, it's cheaper (53%) in terms of gas used to deploy. You will have to search by yourself on how to link the library code into the other contract.",
+  "main": "truffle-config.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.2.2-solc-0.7",
+    "@truffle/hdwallet-provider": "^1.0.43",
+    "express": "^4.17.1",
+    "truffle": "^5.1.41",
+    "truffle-hdwallet-provider": "^1.0.17"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elishadrion/PoolingContract.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elishadrion/PoolingContract/issues"
+  },
+  "homepage": "https://github.com/elishadrion/PoolingContract#readme"
+}
